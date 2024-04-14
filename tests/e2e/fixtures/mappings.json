@@ -1,0 +1,58 @@
+{
+  "banner_mappings": [
+    {
+      "banner_id": 1,
+      "feature_id": 1001,
+      "tag_id": 2001,
+      "is_active": true
+    },
+    {
+      "banner_id": 2,
+      "feature_id": 1002,
+      "tag_id": 2002,
+      "is_active": false
+    },
+    {
+      "banner_id": 3,
+      "feature_id": 1003,
+      "tag_id": 2003,
+      "is_active": false
+    },
+    {
+      "banner_id": 4,
+      "feature_id": 1003,
+      "tag_id": 2004,
+      "is_active": false
+    },
+    {
+      "banner_id": 5,
+      "feature_id": 1005,
+      "tag_id": 2005,
+      "is_active": false
+    },
+    {
+      "banner_id": 6,
+      "feature_id": 1006,
+      "tag_id": 2005,
+      "is_active": false
+    },
+    {
+      "banner_id": 7,
+      "feature_id": 1007,
+      "tag_id": 2007,
+      "is_active": false
+    },
+    {
+      "banner_id": 7,
+      "feature_id": 1007,
+      "tag_id": 2008,
+      "is_active": false
+    },
+    {
+      "banner_id": 8,
+      "feature_id": 1008,
+      "tag_id": 2008,
+      "is_active": false
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "banners": [
+    {
+      "id": 1,
+      "content": {"title": "some_title_2", "text": "some_text", "url": "some_url"},
+      "created_at": 1672531200,
+      "updated_at": 1672531320
+    },
+    {
+      "id": 2,
+      "content": {"title": "title", "text": "some_text", "url": "some_url"},
+      "created_at": 1672617600,
+      "updated_at": 1672617600
+    },
+    {
+      "id": 3,
+      "content": {"title": "title", "text": "some_text", "url": "some_url"},
+      "created_at": 1672617600,
+      "updated_at": 1672617600
+    },
+    {
+      "id": 4,
+      "content": {"title": "title", "text": "some_text", "url": "some_url"},
+      "created_at": 1672617600,
+      "updated_at": 1672617600
+    },
+    {
+      "id": 5,
+      "content": {"title": "title", "text": "some_text", "url": "some_url"},
+      "created_at": 1672617600,
+      "updated_at": 1672617600
+    },
+    {
+      "id": 6,
+      "content": {"title": "title", "text": "some_text", "url": "some_url"},
+      "created_at": 1672617600,
+      "updated_at": 1672617600
+    },
+    {
+      "id": 7,
+      "content": {"title": "title", "text": "some_text", "url": "some_url"},
+      "created_at": 1672617600,
+      "updated_at": 1672617600
+    },
+    {
+      "id": 8,
+      "content": {"title": "title", "text": "some_text", "url": "some_url"},
+      "created_at": 1672617600,
+      "updated_at": 1672617600
+    },
+    {
+      "id": 9,
+      "content": {"title": "title", "text": "some_text", "url": "some_url"},
+      "created_at": 1672617600,
+      "updated_at": 1672617600
+    }
+  ]
+}

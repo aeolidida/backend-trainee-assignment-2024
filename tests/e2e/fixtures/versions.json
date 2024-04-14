@@ -1,0 +1,14 @@
+{
+  "banners_history": [
+    {
+      "banner_id": 1,
+      "content": {"title": "some_title", "text": "some_text", "url": "some_url"},
+      "updated_at": 1672531310
+    },
+    {
+      "banner_id": 1,
+      "content": {"title": "some_title_1", "text": "some_text", "url": "some_url"},
+      "updated_at": 1672531320
+    }
+  ]
+}

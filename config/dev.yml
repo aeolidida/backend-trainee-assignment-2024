@@ -1,0 +1,26 @@
+logger:
+  log_level: debug
+postgres:
+  max_pool_size: 2
+  conn_timeout: 3s
+  host: db
+  port: 5432
+  db_name: banner_db
+http_server:
+  address: "0.0.0.0"
+  port: 8080
+  read_timeout: 30s
+  write_timeout: 30s
+  idle_timeout: 60s
+banner_service:
+  cached_ttl: 300s
+  delete_workers_num: 3
+  queue_name: banner_delete_queue
+redis:
+  address: redis
+  port: 6379
+  conn_timeout: 3s
+rabbitmq:
+  address: rabbitmq
+  port: 5672
+  name: banner_delete_queue
