@@ -50,7 +50,7 @@
 make dev
 ```
 
-## Примеры запросов и ответов
+## Примеры запросов 
 
 Для секретного ключа "my_secret_key", указанного в файлах .env.test и .env.dev, подходят следующие токены:
 
@@ -85,9 +85,15 @@ curl --location 'localhost:8080/banner/' \
 ## POST /banner
 
 ```
-curl --location 'localhost:8080/banner/' \
+curl --location '127.1.0.0:8080/banner' \
 --header 'Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImV4cCI6MTcxMzIwMzY4M30.uh8l49l1_JnxUwRDyA_YufIMhede2P5I-8aKtJNFj3k' \
---data ''
+--header 'Content-Type: application/json' \
+--data '{
+    "tag_ids": [1,2],
+    "feature_id" :3, 
+    "content": {"title": "new", "text": "some_text", "url": "some_url"},
+    "is_active": true
+}'
 ```
 
 ## PATCH /banner/{bannerID}
@@ -99,7 +105,7 @@ curl --location --request PATCH 'localhost:8080/banner/1' \
 --data '{
     "tag_ids": [1,2],
     "feature_id": 6,
-    "content": {"title": "changed", "text": "some_text", "url": "some_url"},
+    "content": {"title": "changed", "text": "new_text", "url": "some_url"},
     "is_active":true
 }'
 ```
